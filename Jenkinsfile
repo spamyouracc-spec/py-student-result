@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                
-                git branch: 'main', url: ' https://github.com/<your-github-username>/<your-repo-name>.git&#x27 ;
+                git branch: 'main', url: 'https://github.com/spamyouracc-spec/py-student-result.git>.git&#x27 ;
             }
         }
         stage('Build and Run') {
